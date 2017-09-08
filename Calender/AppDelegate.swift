@@ -12,10 +12,49 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+            window = UIWindow(frame: UIScreen.main.bounds)
+
+            // here you have the chance to change your rootview controller
+        
+            if(UserDefaults.standard.bool(forKey: "notFirstInApp") == false){
+                UserDefaults.standard.set(true, forKey: "notFirstInApp")
+                
+                let stb = UIStoryboard(name: "Main", bundle: nil)
+                let walkthrough = stb.instantiateViewController(withIdentifier: "Master") as! BWWalkthroughViewController
+                let page_one = stb.instantiateViewController(withIdentifier: "page1") as UIViewController
+                let page_two = stb.instantiateViewController(withIdentifier: "page2") as UIViewController
+                let page_three = stb.instantiateViewController(withIdentifier: "page3") as UIViewController
+                
+                // Attach the pages to the master
+                
+                walkthrough.add(viewController:page_one)
+                walkthrough.add(viewController:page_two)
+                walkthrough.add(viewController:page_three)
+                
+                
+                
+                window?.rootViewController  = walkthrough
+                window?.makeKeyAndVisible()
+                
+             
+            }else{
+                
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let rootViewController1 = storyboard.instantiateViewController(withIdentifier: "ViewControllertabBar") as! ViewControllertabBar
+                
+                let navigationController = UINavigationController(rootViewController: rootViewController1)
+                navigationController.navigationBar.isTranslucent = false
+                 navigationController.navigationBar.barTintColor = UIColor.init(red: 255, green: 255, blue: 255, alpha: 1)
+                
+                 UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.gray, NSFontAttributeName: UIFont(name: "DroidArabicKufi", size: 20)!]
+                window?.rootViewController = navigationController
+                window?.makeKeyAndVisible()
+               
+            }
+
         return true
     }
 

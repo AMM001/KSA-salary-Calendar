@@ -7,13 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042E451D1F51F16E001C48A1 /* ViewControllertabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E451C1F51F16E001C48A1 /* ViewControllertabBar.swift */; };
+		042F8B5B1F4C406C006584E6 /* BWWalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F8B591F4C406C006584E6 /* BWWalkthroughPageViewController.swift */; };
+		042F8B5C1F4C406C006584E6 /* BWWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F8B5A1F4C406C006584E6 /* BWWalkthroughViewController.swift */; };
+		042F8B5E1F4C504A006584E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042F8B5D1F4C504A006584E6 /* Main.storyboard */; };
 		0432FF691F4AED5A00CC8AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432FF681F4AED5A00CC8AE1 /* AppDelegate.swift */; };
-		0432FF6B1F4AED5A00CC8AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432FF6A1F4AED5A00CC8AE1 /* ViewController.swift */; };
-		0432FF6E1F4AED5A00CC8AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432FF6C1F4AED5A00CC8AE1 /* Main.storyboard */; };
 		0432FF701F4AED5A00CC8AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0432FF6F1F4AED5A00CC8AE1 /* Assets.xcassets */; };
 		0432FF731F4AED5A00CC8AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432FF711F4AED5A00CC8AE1 /* LaunchScreen.storyboard */; };
 		0432FF7E1F4AED5A00CC8AE1 /* CalenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432FF7D1F4AED5A00CC8AE1 /* CalenderTests.swift */; };
 		0432FF891F4AED5B00CC8AE1 /* CalenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432FF881F4AED5B00CC8AE1 /* CalenderUITests.swift */; };
+		0436A3181F502D1A00D3F584 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436A3171F502D1A00D3F584 /* AboutViewController.swift */; };
+		043AA3E51F4E176F000AEAAC /* COPYRIGHT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3D51F4E176F000AEAAC /* COPYRIGHT.txt */; };
+		043AA3E61F4E176F000AEAAC /* DESCRIPTION.en_us.html in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3D61F4E176F000AEAAC /* DESCRIPTION.en_us.html */; };
+		043AA3E71F4E176F000AEAAC /* DroidKufi-Bold.arabic in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3D71F4E176F000AEAAC /* DroidKufi-Bold.arabic */; };
+		043AA3E81F4E176F000AEAAC /* DroidKufi-Bold.menu in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3D81F4E176F000AEAAC /* DroidKufi-Bold.menu */; };
+		043AA3E91F4E176F000AEAAC /* DroidKufi-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3D91F4E176F000AEAAC /* DroidKufi-Bold.ttf */; };
+		043AA3EA1F4E176F000AEAAC /* DroidKufi-Regular (1).menu in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3DA1F4E176F000AEAAC /* DroidKufi-Regular (1).menu */; };
+		043AA3EB1F4E176F000AEAAC /* DroidKufi-Regular.arabic in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3DB1F4E176F000AEAAC /* DroidKufi-Regular.arabic */; };
+		043AA3EC1F4E176F000AEAAC /* DroidKufi-Regular.menu in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3DC1F4E176F000AEAAC /* DroidKufi-Regular.menu */; };
+		043AA3ED1F4E176F000AEAAC /* DroidKufi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3DD1F4E176F000AEAAC /* DroidKufi-Regular.ttf */; };
+		043AA3EE1F4E176F000AEAAC /* EARLY_ACCESS.css in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3DE1F4E176F000AEAAC /* EARLY_ACCESS.css */; };
+		043AA3EF1F4E176F000AEAAC /* EARLY_ACCESS.family in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3DF1F4E176F000AEAAC /* EARLY_ACCESS.family */; };
+		043AA3F01F4E176F000AEAAC /* EARLY_ACCESS.html in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3E01F4E176F000AEAAC /* EARLY_ACCESS.html */; };
+		043AA3F11F4E176F000AEAAC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3E11F4E176F000AEAAC /* LICENSE.txt */; };
+		043AA3F21F4E176F000AEAAC /* menusubset-kufi.ff in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3E21F4E176F000AEAAC /* menusubset-kufi.ff */; };
+		043AA3F31F4E176F000AEAAC /* METADATA.json in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3E31F4E176F000AEAAC /* METADATA.json */; };
+		043AA3F41F4E176F000AEAAC /* VERSION.txt in Resources */ = {isa = PBXBuildFile; fileRef = 043AA3E41F4E176F000AEAAC /* VERSION.txt */; };
+		043E5A801F56C73D00A33340 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E5A7F1F56C73D00A33340 /* TransferViewController.swift */; };
+		044891CC1F52CD980049AA9C /* Islamiccalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044891CB1F52CD980049AA9C /* Islamiccalendar.swift */; };
+		044891CE1F52CDA80049AA9C /*  Persiancalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044891CD1F52CDA80049AA9C /*  Persiancalendar.swift */; };
+		044D3DE91F4DA94D00F5CDB0 /* FSCalendar in Resources */ = {isa = PBXBuildFile; fileRef = 044D3DE81F4DA94D00F5CDB0 /* FSCalendar */; };
+		044D3DEB1F4DA9D000F5CDB0 /* Gregoriancalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3DEA1F4DA9D000F5CDB0 /* Gregoriancalendar.swift */; };
+		18B54C155D65D6BAFCFC393A /* Pods_Calender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF83C1B09487ACA69FB588C9 /* Pods_Calender.framework */; };
+		EF618638743EB160315F7509 /* Pods_CalenderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93828519F18450869FA56A86 /* Pods_CalenderUITests.framework */; };
+		F4CD9C7DD842675D9E7B69BA /* Pods_CalenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69FA791EBEC8B3B49F5EFDF /* Pods_CalenderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +61,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042E451C1F51F16E001C48A1 /* ViewControllertabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllertabBar.swift; sourceTree = "<group>"; };
+		042F8B591F4C406C006584E6 /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		042F8B5A1F4C406C006584E6 /* BWWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughViewController.swift; sourceTree = "<group>"; };
+		042F8B5D1F4C504A006584E6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 		0432FF651F4AED5A00CC8AE1 /* Calender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0432FF681F4AED5A00CC8AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0432FF6A1F4AED5A00CC8AE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0432FF6D1F4AED5A00CC8AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0432FF6F1F4AED5A00CC8AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0432FF721F4AED5A00CC8AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0432FF741F4AED5A00CC8AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +76,38 @@
 		0432FF841F4AED5B00CC8AE1 /* CalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0432FF881F4AED5B00CC8AE1 /* CalenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderUITests.swift; sourceTree = "<group>"; };
 		0432FF8A1F4AED5B00CC8AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0436A3171F502D1A00D3F584 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		043AA3D51F4E176F000AEAAC /* COPYRIGHT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYRIGHT.txt; sourceTree = "<group>"; };
+		043AA3D61F4E176F000AEAAC /* DESCRIPTION.en_us.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DESCRIPTION.en_us.html; sourceTree = "<group>"; };
+		043AA3D71F4E176F000AEAAC /* DroidKufi-Bold.arabic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Bold.arabic"; sourceTree = "<group>"; };
+		043AA3D81F4E176F000AEAAC /* DroidKufi-Bold.menu */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Bold.menu"; sourceTree = "<group>"; };
+		043AA3D91F4E176F000AEAAC /* DroidKufi-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Bold.ttf"; sourceTree = "<group>"; };
+		043AA3DA1F4E176F000AEAAC /* DroidKufi-Regular (1).menu */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Regular (1).menu"; sourceTree = "<group>"; };
+		043AA3DB1F4E176F000AEAAC /* DroidKufi-Regular.arabic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Regular.arabic"; sourceTree = "<group>"; };
+		043AA3DC1F4E176F000AEAAC /* DroidKufi-Regular.menu */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Regular.menu"; sourceTree = "<group>"; };
+		043AA3DD1F4E176F000AEAAC /* DroidKufi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Regular.ttf"; sourceTree = "<group>"; };
+		043AA3DE1F4E176F000AEAAC /* EARLY_ACCESS.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = EARLY_ACCESS.css; sourceTree = "<group>"; };
+		043AA3DF1F4E176F000AEAAC /* EARLY_ACCESS.family */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EARLY_ACCESS.family; sourceTree = "<group>"; };
+		043AA3E01F4E176F000AEAAC /* EARLY_ACCESS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EARLY_ACCESS.html; sourceTree = "<group>"; };
+		043AA3E11F4E176F000AEAAC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		043AA3E21F4E176F000AEAAC /* menusubset-kufi.ff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "menusubset-kufi.ff"; sourceTree = "<group>"; };
+		043AA3E31F4E176F000AEAAC /* METADATA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = METADATA.json; sourceTree = "<group>"; };
+		043AA3E41F4E176F000AEAAC /* VERSION.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION.txt; sourceTree = "<group>"; };
+		043BD91D1F4DB07300DB7E48 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		043E5A7F1F56C73D00A33340 /* TransferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		044891CB1F52CD980049AA9C /* Islamiccalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Islamiccalendar.swift; sourceTree = "<group>"; };
+		044891CD1F52CDA80049AA9C /*  Persiancalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " Persiancalendar.swift"; sourceTree = "<group>"; };
+		044D3DE81F4DA94D00F5CDB0 /* FSCalendar */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FSCalendar; sourceTree = "<group>"; };
+		044D3DEA1F4DA9D000F5CDB0 /* Gregoriancalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gregoriancalendar.swift; sourceTree = "<group>"; };
+		650F9FB88C2F286BBA517524 /* Pods-CalenderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalenderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalenderUITests/Pods-CalenderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A643A5197C1E48E07E03747 /* Pods-CalenderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalenderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalenderUITests/Pods-CalenderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91560CC67A3EDB7A28181B3A /* Pods-CalenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalenderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalenderTests/Pods-CalenderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93828519F18450869FA56A86 /* Pods_CalenderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalenderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF83C1B09487ACA69FB588C9 /* Pods_Calender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D707FAC15E5AEE48C7FD795C /* Pods-CalenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalenderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalenderTests/Pods-CalenderTests.release.xcconfig"; sourceTree = "<group>"; };
+		E10752CBD6574201EF2A9C63 /* Pods-Calender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calender/Pods-Calender.debug.xcconfig"; sourceTree = "<group>"; };
+		E94E32DA676C2545B6CCFBE2 /* Pods-Calender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calender.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calender/Pods-Calender.release.xcconfig"; sourceTree = "<group>"; };
+		F69FA791EBEC8B3B49F5EFDF /* Pods_CalenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalenderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B54C155D65D6BAFCFC393A /* Pods_Calender.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CD9C7DD842675D9E7B69BA /* Pods_CalenderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF618638743EB160315F7509 /* Pods_CalenderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +145,8 @@
 				0432FF7C1F4AED5A00CC8AE1 /* CalenderTests */,
 				0432FF871F4AED5B00CC8AE1 /* CalenderUITests */,
 				0432FF661F4AED5A00CC8AE1 /* Products */,
+				3861C9D2815C9BAE0A8FE09C /* Pods */,
+				5A229A1C428E0F28E2DB09FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +163,12 @@
 		0432FF671F4AED5A00CC8AE1 /* Calender */ = {
 			isa = PBXGroup;
 			children = (
-				0432FF681F4AED5A00CC8AE1 /* AppDelegate.swift */,
-				0432FF6A1F4AED5A00CC8AE1 /* ViewController.swift */,
-				0432FF6C1F4AED5A00CC8AE1 /* Main.storyboard */,
-				0432FF6F1F4AED5A00CC8AE1 /* Assets.xcassets */,
-				0432FF711F4AED5A00CC8AE1 /* LaunchScreen.storyboard */,
-				0432FF741F4AED5A00CC8AE1 /* Info.plist */,
+				044D3DE81F4DA94D00F5CDB0 /* FSCalendar */,
+				04AD065E1F54DD56000E6E41 /* model */,
+				04AD065C1F54DD2B000E6E41 /* view */,
+				04AD065D1F54DD3B000E6E41 /* controller */,
+				04AD065F1F54DDDF000E6E41 /* Helper */,
+				043AA3D41F4E176F000AEAAC /* DroidKufi */,
 			);
 			path = Calender;
 			sourceTree = "<group>";
@@ -125,6 +191,94 @@
 			path = CalenderUITests;
 			sourceTree = "<group>";
 		};
+		043AA3D41F4E176F000AEAAC /* DroidKufi */ = {
+			isa = PBXGroup;
+			children = (
+				043AA3D51F4E176F000AEAAC /* COPYRIGHT.txt */,
+				043AA3D61F4E176F000AEAAC /* DESCRIPTION.en_us.html */,
+				043AA3D71F4E176F000AEAAC /* DroidKufi-Bold.arabic */,
+				043AA3D81F4E176F000AEAAC /* DroidKufi-Bold.menu */,
+				043AA3D91F4E176F000AEAAC /* DroidKufi-Bold.ttf */,
+				043AA3DA1F4E176F000AEAAC /* DroidKufi-Regular (1).menu */,
+				043AA3DB1F4E176F000AEAAC /* DroidKufi-Regular.arabic */,
+				043AA3DC1F4E176F000AEAAC /* DroidKufi-Regular.menu */,
+				043AA3DD1F4E176F000AEAAC /* DroidKufi-Regular.ttf */,
+				043AA3DE1F4E176F000AEAAC /* EARLY_ACCESS.css */,
+				043AA3DF1F4E176F000AEAAC /* EARLY_ACCESS.family */,
+				043AA3E01F4E176F000AEAAC /* EARLY_ACCESS.html */,
+				043AA3E11F4E176F000AEAAC /* LICENSE.txt */,
+				043AA3E21F4E176F000AEAAC /* menusubset-kufi.ff */,
+				043AA3E31F4E176F000AEAAC /* METADATA.json */,
+				043AA3E41F4E176F000AEAAC /* VERSION.txt */,
+			);
+			path = DroidKufi;
+			sourceTree = "<group>";
+		};
+		04AD065C1F54DD2B000E6E41 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				042F8B5D1F4C504A006584E6 /* Main.storyboard */,
+				0432FF711F4AED5A00CC8AE1 /* LaunchScreen.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		04AD065D1F54DD3B000E6E41 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				042E451C1F51F16E001C48A1 /* ViewControllertabBar.swift */,
+				043E5A7F1F56C73D00A33340 /* TransferViewController.swift */,
+				044D3DEA1F4DA9D000F5CDB0 /* Gregoriancalendar.swift */,
+				044891CB1F52CD980049AA9C /* Islamiccalendar.swift */,
+				044891CD1F52CDA80049AA9C /*  Persiancalendar.swift */,
+				0436A3171F502D1A00D3F584 /* AboutViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		04AD065E1F54DD56000E6E41 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0432FF681F4AED5A00CC8AE1 /* AppDelegate.swift */,
+				042F8B591F4C406C006584E6 /* BWWalkthroughPageViewController.swift */,
+				042F8B5A1F4C406C006584E6 /* BWWalkthroughViewController.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		04AD065F1F54DDDF000E6E41 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				043BD91D1F4DB07300DB7E48 /* Header.h */,
+				0432FF6F1F4AED5A00CC8AE1 /* Assets.xcassets */,
+				0432FF741F4AED5A00CC8AE1 /* Info.plist */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		3861C9D2815C9BAE0A8FE09C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E10752CBD6574201EF2A9C63 /* Pods-Calender.debug.xcconfig */,
+				E94E32DA676C2545B6CCFBE2 /* Pods-Calender.release.xcconfig */,
+				91560CC67A3EDB7A28181B3A /* Pods-CalenderTests.debug.xcconfig */,
+				D707FAC15E5AEE48C7FD795C /* Pods-CalenderTests.release.xcconfig */,
+				650F9FB88C2F286BBA517524 /* Pods-CalenderUITests.debug.xcconfig */,
+				6A643A5197C1E48E07E03747 /* Pods-CalenderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A229A1C428E0F28E2DB09FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF83C1B09487ACA69FB588C9 /* Pods_Calender.framework */,
+				F69FA791EBEC8B3B49F5EFDF /* Pods_CalenderTests.framework */,
+				93828519F18450869FA56A86 /* Pods_CalenderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0432FF8D1F4AED5B00CC8AE1 /* Build configuration list for PBXNativeTarget "Calender" */;
 			buildPhases = (
+				F1232DF1BAB710067222CDBB /* [CP] Check Pods Manifest.lock */,
 				0432FF611F4AED5A00CC8AE1 /* Sources */,
 				0432FF621F4AED5A00CC8AE1 /* Frameworks */,
 				0432FF631F4AED5A00CC8AE1 /* Resources */,
+				01652126E8FA6F31EC5A2C41 /* [CP] Embed Pods Frameworks */,
+				CB44F03757C88F027AC4004C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0432FF901F4AED5B00CC8AE1 /* Build configuration list for PBXNativeTarget "CalenderTests" */;
 			buildPhases = (
+				032E6EB46C9D434146713F4A /* [CP] Check Pods Manifest.lock */,
 				0432FF751F4AED5A00CC8AE1 /* Sources */,
 				0432FF761F4AED5A00CC8AE1 /* Frameworks */,
 				0432FF771F4AED5A00CC8AE1 /* Resources */,
+				1248C98A0F0CED00FD01B079 /* [CP] Embed Pods Frameworks */,
+				38B13040854C1340206FBEE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +327,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0432FF931F4AED5B00CC8AE1 /* Build configuration list for PBXNativeTarget "CalenderUITests" */;
 			buildPhases = (
+				CEC4B49810DB27A3AF940304 /* [CP] Check Pods Manifest.lock */,
 				0432FF801F4AED5B00CC8AE1 /* Sources */,
 				0432FF811F4AED5B00CC8AE1 /* Frameworks */,
 				0432FF821F4AED5B00CC8AE1 /* Resources */,
+				E3C5962771C44FD236BABF1B /* [CP] Embed Pods Frameworks */,
+				6C80F9CA184600326D6A9D28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +395,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043AA3F11F4E176F000AEAAC /* LICENSE.txt in Resources */,
+				043AA3EB1F4E176F000AEAAC /* DroidKufi-Regular.arabic in Resources */,
+				043AA3EC1F4E176F000AEAAC /* DroidKufi-Regular.menu in Resources */,
+				043AA3F01F4E176F000AEAAC /* EARLY_ACCESS.html in Resources */,
+				043AA3E51F4E176F000AEAAC /* COPYRIGHT.txt in Resources */,
+				043AA3ED1F4E176F000AEAAC /* DroidKufi-Regular.ttf in Resources */,
+				043AA3E71F4E176F000AEAAC /* DroidKufi-Bold.arabic in Resources */,
+				043AA3F21F4E176F000AEAAC /* menusubset-kufi.ff in Resources */,
+				043AA3E61F4E176F000AEAAC /* DESCRIPTION.en_us.html in Resources */,
+				043AA3F31F4E176F000AEAAC /* METADATA.json in Resources */,
 				0432FF731F4AED5A00CC8AE1 /* LaunchScreen.storyboard in Resources */,
 				0432FF701F4AED5A00CC8AE1 /* Assets.xcassets in Resources */,
-				0432FF6E1F4AED5A00CC8AE1 /* Main.storyboard in Resources */,
+				043AA3EA1F4E176F000AEAAC /* DroidKufi-Regular (1).menu in Resources */,
+				043AA3EF1F4E176F000AEAAC /* EARLY_ACCESS.family in Resources */,
+				043AA3E81F4E176F000AEAAC /* DroidKufi-Bold.menu in Resources */,
+				043AA3F41F4E176F000AEAAC /* VERSION.txt in Resources */,
+				044D3DE91F4DA94D00F5CDB0 /* FSCalendar in Resources */,
+				042F8B5E1F4C504A006584E6 /* Main.storyboard in Resources */,
+				043AA3E91F4E176F000AEAAC /* DroidKufi-Bold.ttf in Resources */,
+				043AA3EE1F4E176F000AEAAC /* EARLY_ACCESS.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +434,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01652126E8FA6F31EC5A2C41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Calender/Pods-Calender-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EVTopTabBar/EVTopTabBar.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVTopTabBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calender/Pods-Calender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		032E6EB46C9D434146713F4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalenderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1248C98A0F0CED00FD01B079 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalenderTests/Pods-CalenderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38B13040854C1340206FBEE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalenderTests/Pods-CalenderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C80F9CA184600326D6A9D28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalenderUITests/Pods-CalenderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB44F03757C88F027AC4004C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calender/Pods-Calender-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEC4B49810DB27A3AF940304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalenderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C5962771C44FD236BABF1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalenderUITests/Pods-CalenderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1232DF1BAB710067222CDBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calender-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0432FF611F4AED5A00CC8AE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0432FF6B1F4AED5A00CC8AE1 /* ViewController.swift in Sources */,
+				044891CC1F52CD980049AA9C /* Islamiccalendar.swift in Sources */,
+				043E5A801F56C73D00A33340 /* TransferViewController.swift in Sources */,
+				0436A3181F502D1A00D3F584 /* AboutViewController.swift in Sources */,
+				044891CE1F52CDA80049AA9C /*  Persiancalendar.swift in Sources */,
+				042F8B5B1F4C406C006584E6 /* BWWalkthroughPageViewController.swift in Sources */,
+				042F8B5C1F4C406C006584E6 /* BWWalkthroughViewController.swift in Sources */,
+				044D3DEB1F4DA9D000F5CDB0 /* Gregoriancalendar.swift in Sources */,
 				0432FF691F4AED5A00CC8AE1 /* AppDelegate.swift in Sources */,
+				042E451D1F51F16E001C48A1 /* ViewControllertabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +637,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0432FF6C1F4AED5A00CC8AE1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0432FF6D1F4AED5A00CC8AE1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0432FF711F4AED5A00CC8AE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,30 +745,35 @@
 		};
 		0432FF8E1F4AED5B00CC8AE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10752CBD6574201EF2A9C63 /* Pods-Calender.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = menem.Calender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac/Desktop/projects/Calender/Calender/Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		0432FF8F1F4AED5B00CC8AE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94E32DA676C2545B6CCFBE2 /* Pods-Calender.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = menem.Calender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac/Desktop/projects/Calender/Calender/Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		0432FF911F4AED5B00CC8AE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91560CC67A3EDB7A28181B3A /* Pods-CalenderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +788,7 @@
 		};
 		0432FF921F4AED5B00CC8AE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D707FAC15E5AEE48C7FD795C /* Pods-CalenderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +803,7 @@
 		};
 		0432FF941F4AED5B00CC8AE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650F9FB88C2F286BBA517524 /* Pods-CalenderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CalenderUITests/Info.plist;
@@ -477,6 +817,7 @@
 		};
 		0432FF951F4AED5B00CC8AE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A643A5197C1E48E07E03747 /* Pods-CalenderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CalenderUITests/Info.plist;
@@ -507,6 +848,7 @@
 				0432FF8F1F4AED5B00CC8AE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0432FF901F4AED5B00CC8AE1 /* Build configuration list for PBXNativeTarget "CalenderTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +857,7 @@
 				0432FF921F4AED5B00CC8AE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0432FF931F4AED5B00CC8AE1 /* Build configuration list for PBXNativeTarget "CalenderUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +866,7 @@
 				0432FF951F4AED5B00CC8AE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
